@@ -1,0 +1,73 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.site-header {
+  background-color: #2e8b57; /* Forest green */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-content h1 {
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-style: italic;
+  color: #f0fff0; /* Light green tint for contrast */
+}
+
+.category {
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  transition: background-color 0.3s ease;
+}
+
+.category:hover {
+  transform: scale(1.0);
+  background-color: #f9f9f9;
+}
+
+.category h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 140px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* .gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+} */
